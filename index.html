@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRcode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>To make it easy</h1>
+    <div class="container">
+        <input type="text" placeholder="enter url or text" id="text">
+        <button  onclick="generateQR()">Generate</button>
+        <div id="qr"></div>
+
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2024 AMINE</p>
+        <a href="mailto:aminpayload@gmail.com" id="contact">
+            <img src="https://img.icons8.com/?size=100&id=xLIkjgcmFOsC&format=png&color=000000" alt="Email Icon" style="width:38px ; height: 38px;">
+        </a>
+       
+    </footer>
+
+</body>
+
+</html>
+
+
